@@ -1,6 +1,6 @@
 $(document).ready(function() {
 	// Declare the words for the game and the time that the user has to find the word
-	var words = ['awesome', 'ass', 'ape', 'alone', 'animal', 'best', 'beast', 'breasts', 'banana', 'center', 'cool', 'circle'];
+	var words = ['awesome', 'ape', 'alone', 'animal', 'best', 'beast', 'banana', 'center', 'cool', 'circle', 'dumpster', 'hay', 'guppy', 'hummingbird', 'fry', 'good', 'golf', 'very', 'trust', 'think', 'west', 'east', 'true'];
 	var word = '';
 	var gameStarted = false;
 	var timeLeft = 10;
