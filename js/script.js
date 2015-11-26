@@ -27,7 +27,12 @@ $(document).ready(function() {
 					$('#gameTime').html('<h1>TIME RAN OUT</h1>');
 					gameStarted = false;
 				}
-				
+				else if(timeLeft < 5) {
+					$('#gameTime').html('<h1>' + timeLeft + ' seconds left</h1>');
+					timeLeft = timeLeft - 1;
+					var hint = word.substring(0,2);
+					$('#gameHint').html('<h1>The first two letters are: ' + hint.toUpperCase() + '</h1>');
+				}
 				else {
 					$('#gameTime').html('<h1>' + timeLeft + ' seconds left</h1>');
 					timeLeft = timeLeft - 1;
