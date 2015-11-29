@@ -32,16 +32,17 @@ body {
 	margin: 2em;
 	position: absolute;
 	top:40%;
-	left: 42%;
+	left: 37%;
 	text-align: center;
 	display: block;
 }
 
 #inputText {
-	width: 8em;
+	width: 12em;
 	height: 2em;
-	margin: 0 0.5em 0 1.3em;
+	margin: 0 1.3em 0 1.3em;
 	display: block;
+	font-size: 1.5em;
 }
 
 #inputDiv h2 {
@@ -72,4 +73,14 @@ body {
 
 #gameHint {
 	background-color: #002C4C;
+}
+
+#startGame {
+	width: 12em;
+	margin: 0 1.3em 0 1.3em;
+	font-size: 1.5em;
+	height: 2em;
+	background-color: rgb(77, 183, 250);
+	border: 2px solid #ffffff;
+	color: #ffffff;
 }
